@@ -1,1 +1,1 @@
-<a href="prototype 1/index.html">First HTML Assignment</a>
+<a href="assets/index.html">My Website</a>
