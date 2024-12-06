@@ -1,1 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    color: #333;
+}
+
+/* Header styles */
+h1 {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 20px;
+    color: #add8e6;
+}
+
+/* Navigation styles */
+nav {
+    margin: 20px auto;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #0589c7;
+    font-size: 1.2em;
+    padding: 5px 10px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: rgb(98, 54, 255);
+    background-color: #2500cc;
+    border-color: #0066cc;
+}
 
