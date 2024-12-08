@@ -11,5 +11,9 @@ $(document).ready(function() {
       autoplaySpeed: 2000
     });
 
-
+    $('.multiple-items').slick({
+      infinite: true,
+      slidesToShow: 4,
+      slidesToScroll: 4
+    });
 });

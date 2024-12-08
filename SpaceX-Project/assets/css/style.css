@@ -1,107 +1,85 @@
-
-/* General styles */
+/* General Styles */
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
-  background-color: #f9f9f9;
-  color: #333;
-  line-height: 1.6;
+  font-family: Arial, sans-serif;
+  background-color: #101010;
+  color: white;
+  text-align: center;
 }
 
-/* Header styles */
-h1, h2, h3, h4, h5 {
-  font-weight: normal;
-  color: #222;
-  margin-top: 20px;
-  text-align: left;
+/* Header Styles */
+header {
+  background-color: #1a1a1a;
+  padding: 20px 0;
 }
 
-h1 {
-  font-size: 2em;
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+  color: #f4f4f4;
 }
 
-h2 {
-  font-size: 1.8em;
-}
-
-h3 {
-  font-size: 1.6em;
-}
-
-h4 {
-  font-size: 1.4em;
-}
-
-h5 {
-  font-size: 1.2em;
-}
-
-/* Paragraph styles */
-p1 {
-  font-size: 1em;
-  margin: 15px 0;
-  text-align: justify;
-}
-
-/* Navigation styles */
+/* Navigation Bar */
 nav {
-  margin: 20px auto;
-  padding: 10px;
+  background-color: #202020;
+  padding: 10px 0;
 }
 
 nav ul {
-  list-style-type: none;
+  list-style: none;
   padding: 0;
   margin: 0;
+  display: flex;
+  justify-content: center;
 }
 
 nav ul li {
-  margin: 10px 0;
-  line-height: 1.4;
+  margin: 0 15px;
 }
 
 nav ul li a {
   text-decoration: none;
-  color: #0066cc;
-  font-size: 1em;
-  transition: all 0.3s ease;
+  color: #f4f4f4;
+  font-size: 1.2em;
 }
 
 nav ul li a:hover {
-  color: white;
-  background-color: #0066cc;
-  padding: 3px 6px;
-  border-radius: 5px;
+  color: #ff6600;
 }
 
-/* Image styles */
-img {
-  display: block;
-  margin: 0 auto;
+/* Main Content */
+main {
+  padding: 40px;
+}
+
+main img {
   max-width: 100%;
   height: auto;
+  border: 5px solid #303030;
+  border-radius: 10px;
+  margin-top: 20px;
 }
 
-/* Header styles */
-header {
-  font-size: 1.2em;
-  font-weight: bold;
-  margin-top: 30px;
-  text-align: left;
-  color: #444;
+/* Footer Styles */
+footer {
+  background-color: #1a1a1a;
+  padding: 20px 0;
+  margin-top: 40px;
 }
 
-  /* Footer Styling */
-  footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    margin-top: 20px;
-  }
-  
-  footer p {
-    margin: 0;
-  }
+footer p {
+  margin: 0;
+  color: #f4f4f4;
+  font-size: 0.9em;
+}
+
+footer a {
+  color: #ff6600;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
   
