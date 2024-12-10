@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #222;
-    color: #333;
+    color: #ffffff;
 }
 
 /* Header styles */
@@ -54,7 +54,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: rgb(98, 54, 255);
+    color: rgb(232, 225, 255);
     background-color: #2500cc;
     border-color: #0066cc;
 }
