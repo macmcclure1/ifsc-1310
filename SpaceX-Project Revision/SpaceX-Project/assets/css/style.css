@@ -2,7 +2,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #101010;
+  background-color: #000000;
   color: white;
   text-align: center;
 }
@@ -10,14 +10,17 @@ body {
 
 /* Header Styles */
 header {
-  background-color: #1a1a1a;
+  background-color: #1000f7;
   padding: 20px 0;
+}
+img{
+  max-width:100%;
 }
 
 header h1 {
   margin: 0;
   font-size: 2.5em;
-  color: #f4f4f4;
+  color: #110df7;
 }
 
 /* Navigation Bar */
@@ -53,7 +56,7 @@ main {
   padding: 40px;
 }
 
-main img {
+ img {
   max-width: 100%;
   height: auto;
   border: 5px solid #303030;
